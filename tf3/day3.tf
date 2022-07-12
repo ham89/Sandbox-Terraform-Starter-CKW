@@ -19,5 +19,5 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name      = "MyTF3RG"
-  location  = "australiaeast"
+  location  = "westeurope"
 }
