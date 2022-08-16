@@ -7,7 +7,7 @@ import azure.functions as func
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
 
-    key = "11b90f8671ca464da5d8632b7d17c142"
+    key = "****"
     endpoint = "https://api.cognitive.microsofttranslator.com"
 
     # Add your location, also known as region. The default is global.

@@ -9,7 +9,7 @@ async def main(req: func.HttpRequest) -> func.HttpResponse:
    constructed_url = endpoint + path + params
  
    headers = {
-       "Ocp-Apim-Subscription-Key": "11b90f8671ca464da5d8632b7d17c142",
+       "Ocp-Apim-Subscription-Key": "***",
        "Ocp-apim-subscription-region": "westeurope",
        "Content-Type": "application/json"
    }
