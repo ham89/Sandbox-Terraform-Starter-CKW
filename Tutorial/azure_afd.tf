@@ -9,8 +9,8 @@ resource "azurerm_resource_group" "afd_example_rg" {
 }
 
 resource "azurerm_frontdoor" "afd_example_afd" {
-  name                = "example-FrontDoor-ckw"
-  resource_group_name = azurerm_resource_group.afd_example_rg.name
+  name                                         = "example-FrontDoor-ckw"
+  resource_group_name                          = azurerm_resource_group.afd_example_rg.name
   enforce_backend_pools_certificate_name_check = true
 
   routing_rule {
